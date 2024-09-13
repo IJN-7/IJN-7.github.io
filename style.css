@@ -1,0 +1,118 @@
+html {
+  margin: 0px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0px;
+  font-size: 1.5vw;
+  background-color: #f7f7f7; /* Light background for a nature-like feel */
+}
+
+#logo {
+  margin: 0px;
+  padding: 8px;
+  font-family: "Fredoka One", sans-serif;
+  width: 16%;
+  text-shadow: -1px -1px 0 #8b4513, 1px -1px 0 #8b4513, -1px 1px 0 #8b4513,
+    1px 1px 0 #8b4513; /* Brown outline color to represent the natural theme */
+}
+
+body > header {
+  background-color: #4caf50; /* Green header to represent the jungle */
+  color: white;
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav-ul {
+  display: flex;
+}
+
+#nav-ul > li {
+  padding: 8px;
+  margin: 16px;
+}
+
+body > header > nav > ul {
+  list-style: none;
+}
+
+.navbutton {
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 5%;
+  transition: background-color 0.3s ease;
+}
+
+.navbutton:hover {
+  background-color: #2e7d32; /* Darker green on hover */
+}
+
+body > main article {
+  width: 70%;
+  margin: auto;
+}
+
+#main-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+#main-content > div {
+  width: 70%;
+}
+
+form {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #4caf50; /* Green text to match the header */
+}
+
+body > footer {
+  background-color: #4caf50;
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  color: white;
+}
+
+img {
+  border-radius: 100%;
+}
+
+#footer-ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 100%;
+}
+
+#footer-ul > li {
+  margin-left: 12px;
+}
+
+#footer-ul > li > a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#footer-ul > li > a:hover {
+  color: #c8e6c9; /* Light green hover effect */
+}
